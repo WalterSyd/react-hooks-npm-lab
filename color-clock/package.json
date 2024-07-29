@@ -1,0 +1,28 @@
+{
+  "name": "clock",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "test": "echo 'Hello World!'",
+  "start": "serve",
+  "build": "esbuild index.js --bundle --outfile=dist/out.js"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/WalterSyd/react-hooks-npm-lab.git"
+  },
+  "keywords": [
+    "Start"
+  ],
+  "author": "Sydney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WalterSyd/react-hooks-npm-lab/issues"
+  },
+  "homepage": "https://github.com/WalterSyd/react-hooks-npm-lab#readme",
+  "description": "",
+  "dependencies": {
+    "date-fns": "^2.30.0",
+    "serve": "^14.2.3"
+  }
+}
